@@ -3,7 +3,7 @@
 <div align="center">
 
 <div align="center"> 
-  <h3> 🚀 Live Demo: <a href="/" target="_blank"> 
+  <h3> 🚀 Live Demo: <a href="https://kishan90909.github.io/Shopify/" target="_blank"> 
     View Website
   </a> 
   </h3> 
