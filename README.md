@@ -1,4 +1,4 @@
-# 📚 Shopify Book Store Landing Page
+# 📚 Shopify Book Store
 
 <div align="center">
 
