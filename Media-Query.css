@@ -1,0 +1,316 @@
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* TABLET */
+
+@media screen and (max-width: 992px) {
+
+    .offer {
+        width: 95%;
+    }
+
+    .Top-section {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .search-section {
+        width: 100%;
+        order: 3;
+    }
+
+    .Highlight-container,
+    .categories-container,
+    .banner-container,
+    .news-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .collection {
+        width: calc(50% - 15px);
+        max-width: 250px;
+    }
+
+    .banner {
+        width: 48%;
+        height: auto;
+    }
+
+    .picks-container {
+        flex-direction: column;
+    }
+
+    .left-side,
+    .right-side {
+        width: 100%;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    .announcement {
+        height: auto;
+        padding: 10px;
+    }
+
+    .offer {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .Top-section,
+    .botton-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pages {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .Hero-section {
+        height: auto;
+        padding: 60px 15px;
+        background-position: center;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .text h1 {
+        font-size: 40px;
+        line-height: 1.2;
+    }
+
+    .text p {
+        font-size: 16px;
+    }
+
+    .Achivements {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .Highlight-title,
+    .categories-title {
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        text-align: center;
+    }
+
+    .Highlight-title h1,
+    .categories-title h1 {
+        font-size: 32px;
+    }
+
+    .Highlight-container,
+    .categories-container,
+    .banner-container,
+    .news-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .collection {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .image,
+    .image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .categories-box {
+        width: 45%;
+    }
+
+    .advertisement {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .advertisement-box {
+        height: auto;
+        padding: 25px;
+    }
+
+    .detail {
+        padding-left: 0;
+    }
+
+    .detail h1 {
+        font-size: 28px;
+    }
+
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner img {
+        width: 100%;
+        height: auto;
+    }
+
+    .picks-container {
+        flex-direction: column;
+    }
+
+    .left-side,
+    .right-side {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .left-side {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .pick-image,
+    .pick-desc {
+        width: 100%;
+    }
+
+    .pick-desc button {
+        margin-top: 20px;
+    }
+
+    .authors-section,
+    .authors-container {
+        height: auto;
+    }
+
+    .authors {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .news-container {
+        flex-direction: column;
+    }
+
+    .news-boxs {
+        width: 100%;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .newsletter-form {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .payment-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* SMALL MOBILE */
+
+@media screen and (max-width: 576px) {
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .blue {
+        font-size: 16px;
+    }
+
+    .collection,
+    .categories-box,
+    .boxs,
+    .news-boxs {
+        width: 100%;
+    }
+
+    .boxs {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .boxs img {
+        margin-left: 0;
+    }
+
+    .review-box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .review-box h2 {
+        font-size: 24px;
+    }
+
+    .search-btn {
+        padding: 0 15px;
+        font-size: 12px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        height: auto;
+        border-radius: 15px;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+        padding: 15px;
+        justify-content: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
